@@ -2,7 +2,7 @@
 
 ## Pitch
 
-Vous partez d'un page HTML existante et qu'il faut compléter.
+Vous partez d'un page HTML existante et qu'il faut compléter - preview sur http://bruxellesformationcepegra.github.io/lab-js-discoverbrussels
 
 Le thème de l’exercice est de présenter certains points d’intérêts (highlights) et attractions bruxelloises, sous forme de liste et sous forme de carte. 
 
@@ -59,5 +59,6 @@ Pour la création du contenu HTML, privilégiez une méthode qui rend le code HT
 Lors du chargement de la page, la première question est affichée. Au clic sur le bouton « Submit », il faut vérifier le choix effectué par l’utilisateur à la bonne réponse encodée dans l’objet du fichier game.js. Si c’est identique, il faut incrémenter le nombre de points dans cet objet.
 
 Lorsque toutes les questions sont répondues, il faut afficher un récapitulatif des points obtenus.
+
 
 **Have fun !**
