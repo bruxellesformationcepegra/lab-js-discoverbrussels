@@ -1,0 +1,39 @@
+#sidebar{
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color: white;
+	border-left: 1px black solid;
+	right: -300px;
+	z-index:1000;
+	padding: 5px;
+}
+
+#sidebar #close{
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+
+#sidebar .content{
+	padding-top: 35px;
+	height: 95%;
+	overflow-y: auto;
+}
+
+#map{
+    width: 100%;
+    height:600px;
+    background-color: #E2E2E2;
+}
+
+.jumbotron{
+	background: url('http://forrentinbrussels.com/wp-content/uploads/2015/02/amazing-photo-of-Brussels-city-at-night.jpg');
+	color: white;
+}
+
+footer{
+	height: 75px;
+	vertical-align: center;
+	padding-top: 35px;
+}
