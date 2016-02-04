@@ -33,9 +33,13 @@ Tout le code ci-dessous est à effectuer dès le chargement de la page.
     En plus, cet objet comprend une propriété à utiliser pour configurer la carte : latitude, longitude et niveau de zoom par défaut.
     
 2. Pour la création du contenu HTML, privilégiez une méthode qui rend le code HTML et JavaScript lisibles et maintenables. La structure HTML à utiliser est en commentaire de la page.
+
 3. Pour la carte, utilisez le plugin Gmaps.js (https://hpneo.github.io/gmap) et configurez-la avec les valeurs par défaut stockées dans l’objet du point 1.
+
 4. Au clic sur « Learn more » ET sur les marqueurs de la carte, il faut ouvrir avec une animation de la droite vers la gauche le div#sidebar (présent dans l’HTML) et y charger le contenu de la page liée – par exemple, au clic sur « Atomium » il faut ouvrir « atomium.html ». Le data attribute « data-page-url » n’est pas là pour rien ;) Dans le h2 de la sidebar, il faut y mettre le nom de l’attraction et dans le div.content, le contenu du div.content de la page appelée.
+
 5. Quand la sidebar est ouverte, un clic sur un autre marqueur ou bouton « Learn More » affiche le contenu directement dans celle-ci, sans animation.
+
 6. Au clic sur le bouton « Close » de la navbar, celle-ci se referme avec une animation de la gauche vers la droite.
 
 Une fois ces points terminés et fonctionnels, vous pouvez charger les données via une requête AJAX et vous passer du fichier data.js !
