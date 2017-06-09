@@ -44,7 +44,7 @@ Tout le code ci-dessous est à effectuer dès le chargement de la page.
 
 Une fois ces points terminés et fonctionnels, vous pouvez charger les données via une requête AJAX et vous passer du fichier data.js !
 
-Voici l’URL à contacter : http://node-test-nbwns.c9.io/discover_brussels/data/ (contactez-moi si ce n'est pas accessible, c'est que le serveur est arrêté)
+Voici l’URL à contacter : https://wt-902485dbb4fca4fccee3a0efcde5b34c-0.run.webtask.io/discover-brussels
 
 ### Petit jeu
 
