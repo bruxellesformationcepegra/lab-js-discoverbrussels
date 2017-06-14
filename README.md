@@ -42,7 +42,7 @@ Tout le code ci-dessous est à effectuer dès le chargement de la page.
 
 6. Au clic sur le bouton « Close » de la navbar, celle-ci se referme avec une animation de la gauche vers la droite.
 
-Une fois ces points terminés et fonctionnels, vous pouvez charger les données via une requête AJAX et vous passer du fichier data.js !
+**Une fois ces points terminés et fonctionnels, vous pouvez charger les données via une requête AJAX et vous passer du fichier data.js !**
 
 Voici l’URL à contacter : https://wt-902485dbb4fca4fccee3a0efcde5b34c-0.run.webtask.io/discover-brussels
 
